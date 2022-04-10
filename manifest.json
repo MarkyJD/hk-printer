@@ -1,0 +1,26 @@
+{
+  "name": "HK Printer",
+  "description": "Compile a day's schedule into printable HK style",
+  "version": "0.1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js",
+    "matches": ["https://appau.newbook.cloud/tasks_housekeeping/"]
+  },
+  "permissions": ["activeTab", "declarativeContent", "scripting"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "/images/hk16.png",
+      "32": "/images/hk32.png",
+      "48": "/images/hk48.png",
+      "128": "/images/hk128.png"
+    }
+  },
+  "icons": {
+    "16": "/images/hk16.png",
+    "32": "/images/hk32.png",
+    "48": "/images/hk48.png",
+    "128": "/images/hk128.png"
+  }
+}

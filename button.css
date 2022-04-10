@@ -1,0 +1,23 @@
+button {
+  width: max-content;
+  padding: 1rem 3rem;
+  outline: none;
+  margin: 12px;
+  border: 2px solid #2d60c4;
+  color: #2d60c4;
+  font-weight: bold;
+  border-radius: 12px;
+  cursor: pointer;
+  background-color: transparent;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+}
+
+button:hover {
+  background-color: #2d60c4;
+  color: white;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+button.current {
+  box-shadow: 0 0 0 2px white, 0 0 0 4px rgba(0, 0, 0, 0.245);
+}
